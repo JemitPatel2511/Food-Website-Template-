@@ -1,0 +1,279 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+
+    
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+
+}
+.bar1{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    
+    
+}
+
+.img1{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.ul1{
+    
+    list-style-type: none;
+    
+}
+.bar2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.li1{
+    display: inline-block;
+    padding: 20px;
+    
+    /* margin-top: 5px; */
+}
+
+li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.img2{
+    position: relative;
+    top: 10px;
+    
+}
+
+.button1{
+    background-color: blue;
+    /* height: 50px;
+    width: 80px; */
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+.banner{
+    text-align: center;
+    position: relative;
+    top: 230px;
+    right: 10px;
+    
+}
+
+.bannerh1{
+    
+    color: white;
+    font-size: 150px;
+}
+.bannerp{
+    
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+
+.bannerbutton{
+    background-color: rgb(0, 180, 230);
+    position: absolute;
+    margin-top: 50px;
+    height: 10vh;
+    width: 25vh;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    left: 650px;
+    font-size: 15px;
+}
+    .about1{
+        clear: both;
+        margin-top: 80px;
+        margin-bottom: 35%;
+    }
+    .aboutdiv1{
+        float: right;
+        height: 350px;
+        width: 53%;
+        
+    }
+    .abouth1{
+    font-size: 50px;
+    font-style: bold;
+    
+    }
+
+    .abouthp{
+        padding-top: 20px;
+        font-size: 25px
+    }
+    .aboutbutton{
+        background-color: blue;
+        position: absolute;
+        margin-top: 50px;
+        height: 9vh;
+        width: 23vh;
+        border: none;
+        color: white;
+        font-size: 25px;
+        margin-left: 80px;
+    }
+
+        .aboutimg{
+            float: right;
+        margin-right: 100px;
+        }
+
+        .service{
+            clear: both;
+            
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: rgb(255, 207, 207);
+        }
+
+        .servicediv1{
+            height: 80px;
+            width: 100%;
+            
+            text-align: center;
+            font-size: 40px;
+        }
+        .servicediv2{
+            height: 450px;
+            width: 30%;
+
+            display: inline-block;
+            margin-left: 50px;
+            text-align: center;
+        }
+        .servicediv3{
+            height: 450px;
+            width: 30%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: inline-block;
+            text-align: center;
+        }
+        .servicediv4{
+            height: 450px;
+            width: 30%;
+            
+            display: inline-block;
+            text-align: center;
+        }
+
+        .buttonlearn{
+            color: black;
+            padding: 20px;
+            border: none;
+            border-bottom: 2px solid red;
+            background-color: transparent;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .servicep{
+            padding-top: 30px;
+            font-size: 45px;
+            padding-bottom: 30px;
+        }
+
+        .formimg{
+            height: 450px;
+            width: 100%;
+            position: absolute;
+        }
+
+        .formdiv1{
+            position: relative;
+            height: 400px;
+            width: 45%;
+            padding-right: 80px;
+            float: left;
+            padding-left: 150px;
+            padding-top: 70px;
+            margin-bottom: ;
+            color: white;
+        }
+
+        .formh1{
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        .formp1{
+            text-align: justify;
+        }
+        .formbutton1{
+            padding: 10px;
+            margin-top: 50px;
+            margin-left: 200px;
+            background-color: transparent;
+            border: 1px solid white;
+            font-size: 20px;
+            color: white;
+        }
+
+        .formdiv2{
+            
+            float: right;   
+            position: relative;
+            width: 45%;
+            height: 400px;
+            padding-left: 10%;
+            color: white;
+            padding-top: 70px;
+            
+        }
+
+        div input{
+            padding: 8px;
+            margin-bottom: 20px;
+        }
+        .formbutten{
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .onlineplatfrom{
+            clear: both;
+            width: 100%;
+            margin-top: 450px;
+            
+            padding: 10px ;
+            text-align: center;
+            background-color: rgb(50, 42, 42);
+        }
+
+        .footer{
+            clear: both;
+            color: white;
+            width: 100%;
+            height: 20%;
+            padding: 30px ;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+        }
+
+        button:hover{
+            background-color: rgb(0, 195, 255);
+        }
+
+        .logo{
+            margin-right: 30px;
+            margin: 20px;
+        }
